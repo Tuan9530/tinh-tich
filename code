@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main() {
+    int a, b;
+    std::cout << "Nhập số thứ nhất: ";
+    std::cin >> a;
+    std::cout << "Nhập số thứ hai: ";
+    std::cin >> b;
+
+    int tich = a * b;
+    std::cout << "Tích của " << a << " và " << b << " là: " << tich << std::endl;
+
+    return 0;
+}
